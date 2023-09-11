@@ -1,0 +1,9 @@
+1693192169973	Rename local variable 'counter'
+1693192832126	Rename field 'srr'
+1693275264034	Delete element
+1693276283959	Rename local variable 's'
+1693324284614	Delete element
+1693363199959	Rename local variable 'string1Chars'
+1693369429484	Extract method 'isLower'
+1693370324861	Rename local variable 'stringChars'
+1693454978378	Extract method 'StringToInt'

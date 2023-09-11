@@ -1,0 +1,35 @@
+package com.kn.array;
+
+import java.util.Scanner;
+
+public class Array3d {
+
+	public static void main(String[] args) {
+		// Creating scanner object
+		Scanner scan = new Scanner(System.in);
+		//Array declaration and creation
+		System.out.println("Enter the size of the array :- ");
+		int size = scan.nextInt();
+		int arr[][][] = new int[size][size][size];
+		// Array initilization
+		for(int i=0;i<arr.length;i++) {
+			for(int j=0;j<arr[i].length;j++) {
+				for(int k=0;k<arr[i][j].length;k++) {
+					System.out.println("Enter data for this element ");
+					arr[i][j][k] = scan.nextInt();
+				}
+			}
+		}
+		// Printing the array
+		for(int i=0;i<arr.length;i++) {
+			for(int j=0;j<arr[i].length;j++) {
+				for(int k=0;k<arr[i][j].length;k++) {
+					System.out.println("Enter data for this element ");
+					System.out.println(arr[i][j][k]);
+				}
+			}
+		}
+		
+	}
+
+}

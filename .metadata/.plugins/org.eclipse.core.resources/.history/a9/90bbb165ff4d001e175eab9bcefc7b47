@@ -1,0 +1,17 @@
+package com.kn.arrayrotation;
+
+public class RotateArray {
+	// Method
+	void rotateArray(int[] arr ) {
+		
+		for(int i = 0 ; i< 1; i ++) {
+			for(int j = 0; j < arr.length;j++) {
+				int temp = arr[0];
+				arr[i] = arr[i+1];
+				arr[i+1] =  
+			}
+		}
+		for(int e : arr)
+			System.out.println(e);
+	}
+}

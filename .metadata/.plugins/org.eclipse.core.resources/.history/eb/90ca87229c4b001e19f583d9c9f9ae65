@@ -1,0 +1,19 @@
+package com.kn.palandromofstring;
+
+import java.util.Scanner;
+
+public class PalandromOfStringDemo {
+
+	public static void main(String[] args) {
+		// User input
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter a string to check weather its palandrom or not :- ");
+		String string = scanner.nextLine();
+		// Create objects
+		PalandromOfString ofString = new  PalandromOfString();
+		// Call methods
+		
+		// Release resources
+	}
+
+}

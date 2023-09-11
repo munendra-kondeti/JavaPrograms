@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;traversing&apos; in &apos;com.kn.romannumbers.RomenNUmber.printRomanNumber(...)&apos; to &apos;index&apos;&#x0D;&#x0A;- Original project: &apos;StringPrograms&apos;&#x0D;&#x0A;- Original element: &apos;com.kn.romannumbers.RomenNUmber.printRomanNumber(int).traversing&apos;&#x0D;&#x0A;- Renamed element: &apos;traversing&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;traversing&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.kn.romannumbers{RomenNUmber.java[RomenNUmber~printRomanNumber~I@traversing!473!491!477!486!I!0!false" name="index" references="true" stamp="1693883001934" version="1.0"/>
+</session>

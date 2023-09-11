@@ -1,0 +1,8 @@
+package com.kn.arrayrotation;
+
+public class RotateArray {
+	// Method
+	void rotateArray(int[] arr ) {
+		
+	}
+}

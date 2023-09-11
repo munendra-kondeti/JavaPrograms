@@ -1,0 +1,10 @@
+package com.kn.palandromofstring;
+
+public class PalandromOfString {
+
+	public boolean isPalandrom(String string) {
+		
+		return false;
+	}
+
+}

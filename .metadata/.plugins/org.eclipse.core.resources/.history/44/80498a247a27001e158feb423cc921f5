@@ -1,0 +1,25 @@
+package com.kn.dowhile;
+
+import java.util.Scanner;
+
+public class NumberOfDigits {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a number ");
+		int num = scan.nextInt();
+		scan.close();
+		int digits = findNumberOfDigits(num);
+	}
+
+	private static int findNumberOfDigits(int num) {
+		int count = 0;
+		while (num > 0) {
+			int r = num % 10;
+			count++;
+			num /= 10;
+		}
+		return count;
+	}
+
+}

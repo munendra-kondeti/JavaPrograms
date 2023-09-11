@@ -1,0 +1,10 @@
+package com.kn.patterens;
+
+public class LeftAngleTraingleWithBinary {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

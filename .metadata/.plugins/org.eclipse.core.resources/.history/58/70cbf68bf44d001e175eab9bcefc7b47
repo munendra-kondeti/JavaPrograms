@@ -1,0 +1,19 @@
+package com.kn.matrixaddition;
+public class MatrixAdditionDemo {
+
+	public static void main(String[] args) {
+
+		// Meassage 
+		System.out.println("Matrix Addition");
+		
+		// Create objects
+		MatrixAddition matrix= new MatrixAddition();
+		// Call method
+		matrix.addition();
+		
+		// Release the resources
+		
+		
+	}
+
+}

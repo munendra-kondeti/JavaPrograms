@@ -1,0 +1,9 @@
+package com.kn.arraymerginginreverseorder;
+
+public class MartixMergeInREverse {
+	
+	// Method
+	void mergeArray(int[] a, int[] b) {
+		int crr[] = new int[a.length+b.length];
+	}
+}

@@ -1,0 +1,30 @@
+package com.kn.nestedif;
+
+import java.util.Scanner;
+
+public class LoanEligibility {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		// age and income
+		System.out.println("Enter your age ");
+		int age = scan.nextInt();
+		System.out.println("Enter your income ");
+		int income = scan.nextInt();
+		boolean flag = isElgibleForLoan(age, income);
+		if (flag)
+			System.out.println("Eligible");
+		else
+			System.out.println("Not Eligible");
+	}
+
+	private static boolean isElgibleForLoan(int age, int income) {
+		if (age > 21) {
+			if (income > 21_000) {
+				return true;
+			}
+		}
+		return true;
+	}
+
+}

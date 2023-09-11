@@ -1,0 +1,21 @@
+package com.kn.pattrenspractice;
+
+public class NumberPyramid {
+
+	public static void main(String[] args) {
+		for (int i = 1; i <= 5; i++) {
+			for (int m = 0; m < 4; m++) {
+				if (!(i + m >= 4 & m - i <= 2))
+					System.out.print(" ");
+			}
+			for (int j = 0; j < 5; j++) {
+				if (i + j >= 5 & j - i <= 3) {
+					System.out.print(i);
+				}
+
+			}
+			System.out.println();
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.kn.forloop;
+
+import java.util.Scanner;
+
+public class EvenNumbers {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enetr a number");
+		int num = scan.nextInt();
+		scan.close();
+		isEven(num);
+	}
+
+	static int isEven(int num) {
+		if (num % 2 == 0)
+			return true;
+	}
+
+}

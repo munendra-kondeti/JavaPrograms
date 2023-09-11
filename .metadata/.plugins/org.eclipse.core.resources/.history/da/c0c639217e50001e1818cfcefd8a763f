@@ -1,0 +1,24 @@
+package com.kn.pattrenspractice;
+
+public class PalindromicNumberPyramid {
+
+	public static void main(String[] args) {
+		int k=1;
+		for (int i = 1; i <= 5; i++) {
+
+			for (int j = 0; j < 9; j++) {
+				if(j ==4) {
+					k=1;
+				}
+				if (i + j >= 5 && j - i <= 3) {
+					System.out.print(k++);
+					
+				} else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+	}
+
+}

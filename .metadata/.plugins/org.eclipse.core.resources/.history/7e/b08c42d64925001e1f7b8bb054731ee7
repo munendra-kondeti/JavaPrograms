@@ -1,0 +1,14 @@
+package com.kn.nestedif;
+
+import java.util.Scanner;
+
+public class LoanEligibility {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		// age and income
+		int age = scan.nextInt();
+
+	}
+
+}

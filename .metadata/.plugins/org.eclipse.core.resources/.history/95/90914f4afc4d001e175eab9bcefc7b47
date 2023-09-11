@@ -1,0 +1,10 @@
+package com.kn.arraymerging;
+
+public class MergeArray {
+
+	public void mearg(int[] arr, int[] brr) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

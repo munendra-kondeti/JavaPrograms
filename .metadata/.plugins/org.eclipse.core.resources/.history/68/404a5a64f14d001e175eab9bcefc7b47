@@ -1,0 +1,21 @@
+package com.kn.matrixaddition;
+
+import java.util.Scanner;
+
+public class MatrixAdditionDemo {
+
+	public static void main(String[] args) {
+
+		// Meassage 
+		System.out.println("Matrix Addition");
+		// Creat objects
+		MatrixAddition matrix= new MatrixAddition();
+		// Call method
+		matrix.addition();
+		
+		// Release the resources
+		
+		
+	}
+
+}
