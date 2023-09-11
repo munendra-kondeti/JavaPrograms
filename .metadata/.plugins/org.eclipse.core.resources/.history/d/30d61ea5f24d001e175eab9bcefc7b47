@@ -1,9 +1,0 @@
-package com.kn.matrixaddition;
-
-public class MatrixAddition {
-
-	public void addition(int[][] arr, int[][] brr) {
-		
-	}
-
-}
